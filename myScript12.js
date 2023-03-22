@@ -12,7 +12,6 @@ function Prueba() {
         
     } catch (e) {
         document.getElementById("demo12.1").innerHTML = "Has fallado";
-        
     }
 }
 

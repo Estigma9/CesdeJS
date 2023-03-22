@@ -58,8 +58,8 @@ let textIn = "";
 
 for (let animal in animales) {
     
-    textIn = textIn + animales[animal] + "<br>";
-    // textIn += animal + "<br>";    
+    // textIn = textIn + animales[animal] + "<br>";
+    textIn += animal + "<br>";    
 }
 
 document.getElementById("demo10.2").innerHTML = textIn;

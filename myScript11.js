@@ -23,4 +23,5 @@ document.getElementById("demo11.1").innerHTML = taladros.get("Hilti");
 
 document.getElementById("demo11.2").innerHTML = taladros.delete("Delwalt");
 
-document.getElementById("demo11.3").innerHTML = taladros.size;
+// document.getElementById("demo11.3").innerHTML = taladros.size;
+document.getElementById("demo11.3").innerHTML = taladros.get("Delwalt");
