@@ -14,6 +14,7 @@ JavaScript solo levanta declaraciones, no inicializaciones.
 
 // console.log(nombre);
 // var nombre = "Esteban";
+// console.log(nombre);
 
 // var nombre;
 // console.log(nombre);
@@ -37,6 +38,7 @@ function saludar(name){
     document.getElementById("demo15.1").innerHTML = 'Hola ' + name;
 };
 
+
 // Función como expresión --WARNING-- //
 
 // saludar("Sergio");
@@ -46,11 +48,13 @@ function saludar(name){
 // };
 
 
-//---- Hoisting let y const ----//
 
+//---- Hoisting let y const ----//
 
 // let apellido;
 // console.log(apellido);
-// let apellido = 'Durán'
+// let apellido = 'Durán';
+
+
 
 

@@ -11,7 +11,7 @@ Global scope
 
 // Function Scope
 function comer() {
-    let fruta = 'manzana';
+    var fruta = 'manzana';
     document.getElementById("demo14.0").innerHTML = 'Comiendo ' + fruta;
 };
 
@@ -21,7 +21,7 @@ function lavar() {
 };
 
 comer();
-lavar()
+lavar();
 
 
 //Global Scope
@@ -34,7 +34,6 @@ function picar() {
 };
 
 picar();
-
 
 // document.getElementById("demo14.3").innerHTML = 'Picando ' + otraFruta;
 
@@ -79,13 +78,11 @@ almacenar();
 
 // document.getElementById("demo14.8").innerHTML = 'Guardando ' + frutaGuardada;
 
-document.getElementById("demo14.9").innerHTML = 'Trayendo ' + frutaTraida;
-
 
 // OCULTAMIENTO DE VARIABLES (Variable Shadowing)
 
 /*
-uando una variable está en un scope mas reducido tiene el mismo 
+Cuando una variable está en un scope mas reducido tiene el mismo 
 nombre que otra que esta en un scope superior, siguiendo la cadena
 de scopes 
 */
@@ -104,7 +101,5 @@ function buscarMiFruta(){
 };
 
 buscarMiFruta();
-
-
 
 

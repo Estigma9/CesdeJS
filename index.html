@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cesde JS</title>
 
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
     <h1>Practica de Java Script</h1>
@@ -148,10 +150,162 @@
     <p id="demo16.1"></p>
     <br>
     <br>
+    
+    <h2>Manejo del DOM</h2>
+    <br>
+    Digite su nombre: <input type="text" id="fname" onchange="upperCase()">
+
+    <br>
+    <br>
+
+    <div
+        onmouseover = "moveOver(this)"
+        onmouseout = "moveOut(this)" 
+        style="background-color: rgb(130, 45, 14);
+                width: 120px;
+                height: 20px;
+                padding: 40px;
+                color: antiquewhite;"
+    >Mouse Over Me</div>
+    <br>
+    <br>
+
+    <div 
+        onmousedown = "mDown(this)" 
+        onmouseup = "mUp(this)"
+        style = "background-color: rgb(26, 88, 12);
+                width: 120px;
+                height: 20px;
+                padding: 40px;
+                color: antiquewhite;"
+    
+    >Click Me</div>
+
+    <br>
+    <br>
+    
+    <button id="myBtn">Intentalo</button>
+
+    <br>
+    <br>
+    <button id="otherBtn">Te diré que hiciste</button>
+    <p id="demo17.0"></p>
+    <br>
+    <br>
+
+    <h2>POO</h2>
+    <br>
+    <p id="demo18.0"></p>
+    <p id="demo18.1"></p>
+    <p id="demo18.2"></p>
+    <p id="demo18.3"></p>
+    <p id="demo18.4"></p>
+    <p id="demo18.5"></p>
+    <p id="demo18.6"></p>
+    <p id="demo18.7"></p>
+    <p id="demo18.8"></p>
+    <p id="demo18.9"></p>
+    <br>
+    <br>
+
+    <h2>Encontrar elementos HTML</h2>
+    <br>
+    <p id="demo19.0">Estoy usando HTML DOM</p>
+    <p id="demo19.1"></p>
+    <div>Soy un tag div</div>
+    <p id="demo19.2"></p>
+    <p class="encabezado">Las utilizamos en CSS</p>
+    <p class="encabezado">Soy otro encabezado</p>
+    <p class="encabezado">El encabezado es otro</p>
+    <p class="encabezado">Yo si soy el Encabezado</p>    
+    <p id="demo19.3"></p>
+    <p id="demo19.4"></p>
+    <img id="image" src="./img/EstudioCSS.png" width="120" height="160">
+    <p id="demo19.5">Estoy en el Cesde</p>
+    <p id="demo19.6">Estoy en el Cesde</p>
+    <p id="demo19.7">Precuación</p>
+    <button type="button" onclick="danger()">Don't Click!!</button>
+    <br>
+    <br>
+    <p id="demo19.8">Hagamos magia</p>
+    <input type="button" value="Desaparecer" onclick="desaparece()">
+    <input type="button" value="Aparecer" onclick="aparece()">
+    <br>
+    <br>
+    <h2>Esta es una animación con JavaScript</h2>
+    <p><button onclick="mover()">Mueveme!!!</button></p>
+    <div id="contenedor">
+        <div id="animado"></div>
+    </div>
+    <br>
+    <br>
+    <p id="demo19.9" onclick="cambio()">Has Click en este texto</p>
+    <br>
+    <br>
+    Escriba su nombre: <input type="text" onfocus="resaltar(this)">
+
+    <br>
+    <h2>Validación de formularios con JavaScript</h2>
+    <form 
+        name="inscripcion" 
+        action="formulario.php" 
+        onsubmit="return validarDatos()" 
+        method="post"
+        >
+        Nombre: <input type="text" name="nombreCompleto">
+        <input type="submit" value="Enviar">
+    </form>
+    <br>
+    <br>
+    <p>Ingrese un Número del 1 al 10: </p>
+    <input id="number">
+    <button type="button" onclick="validarNum()">Enviar</button>
+    <p id="respuesta"></p>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h2>Ejercicios JSON</h2>
+    <p id="demo21.0"></p>
+    <p id="demo21.1"></p>
+    <p id="demo21.2"></p>
+    <p id="demo21.3"></p>
+    <p id="demo21.4"></p>
+    <p id="demo21.5"></p>
+    <p id="demo21.6"></p>
+    <p id="demo21.7"></p>
+    <p id="demo21.8"></p>
+    <p id="demo21.9"></p>
+    <p id="demo21.10"></p>
 
     
+
     
-    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <br>
     <br>
     <br>
@@ -184,8 +338,13 @@
     <script src="myScript13.js"></script>
     <script src="myScript14.js"></script>
     <script src="myScript15.js"></script>
-
-
+    <script src="myScript16.js"></script>
+    <script src="myScript17.js"></script>
+    <script src="myScript18.js"></script>
+    <script src="myScript19.js"></script>
+    <!-- <script src="myScript20.js"></script> -->
+    <script src="myScript21.js"></script>
+    
     
 </body>
 </html>
